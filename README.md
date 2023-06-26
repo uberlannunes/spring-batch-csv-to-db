@@ -2,6 +2,18 @@
 
 This is a Java Spring Batch project that allows you to import CSV files into a database. It provides two different approaches for importing: multi-threaded and single-threaded.
 
+## Technology Stack
+
+The project utilizes the following technologies and frameworks:
+
+- Java
+- Spring Boot
+- Spring Batch
+- Spring Batch Integration
+- Maven (for build and dependency management)
+- PostgreSQL
+- Docker
+
 ## Prerequisites
 
 Before running this project, make sure you have the following prerequisites installed:
