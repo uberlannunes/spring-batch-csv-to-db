@@ -13,13 +13,13 @@ public class StockPrice {
     private Long id;
     private String ticketPair;
     private BigInteger openTime;
-    @Column(precision = 10)
+    @Column(precision = 24, scale = 8)
     private BigDecimal open;
-    @Column(precision = 10)
+    @Column(precision = 24, scale = 8)
     private BigDecimal high;
-    @Column(precision = 10)
+    @Column(precision = 24, scale = 8)
     private BigDecimal low;
-    @Column(precision = 10)
+    @Column(precision = 24, scale = 8)
     private BigDecimal close;
     private BigInteger volume;
     private BigInteger closeTime;
